@@ -15,3 +15,7 @@ Simply run `server.py` script:
 ## Debugging backend
 By default server runs in production mode. If something wrong happens, you can try running it in debug mode to get more details with this command:
 ### `flask --app server --debug run --host=localhost --port 3001`
+
+## Heroku deployment
+Use this command from root directory and deploy_to_heroku branch:
+### `git subtree push --prefix air-quality-backend heroku deploy_to_heroku:master`
